@@ -1,0 +1,29 @@
+:root {
+  --main-bg: #1c2431;
+  --card-bg: #202a3c;
+  --primary: #fff;
+  --secondary: #60d9d3;
+  --gradient: linear-gradient(45deg, #65e2d9 0%, #31c2d8 50%, #339ecc 100%);
+
+  --text-2xl: clamp(32px, 3cqw, 40px);
+  --text-xl: clamp(28px, 3cqw, 32px);
+  --text-2lg: clamp(18px, 3cqw, 20px);
+  --text-lg: clamp(16px, 3cqw, 18px);
+  --text-sm: 15px;
+  --text-2sm: 11px;
+  --text-3sm: 8px;
+}
+
+.container {
+  max-width: 1280px;
+  margin-inline: auto;
+  color: var(--primary);
+}
+
+.link {
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: var(--secondary);
+}

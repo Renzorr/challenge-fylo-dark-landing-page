@@ -1,0 +1,37 @@
+@import "./reset.css";
+@import "./variables.css";
+@import "./header/header.css";
+@import "./hero/hero.css";
+@import "./features/features.css";
+@import "./stayProductive/stayProductive.css";
+@import "./testimonial/testimonial.css";
+@import "./contact/contact.css";
+@import "./footer/footer.css";
+
+@font-face {
+  font-family: "Raleway";
+  src: url(/font/Raleway-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url(/font/Raleway-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(/font/OpenSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(/font/OpenSans-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+
+body {
+  font-family: "Raleway";
+  background-color: var(--main-bg);
+  padding-inline: 10px;
+}

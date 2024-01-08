@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 73px;
+}
+
+.nav_items {
+  display: flex;
+  gap: 62px;
+}
+
+.nav_items li {
+  font-size: var(--text-sm);
+}
+
+@media (width < 450px) {
+  .header {
+    justify-content: center;
+    gap: 50px;
+  }
+}
